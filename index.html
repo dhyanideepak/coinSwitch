@@ -1,70 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/209aeb1594.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/209aeb1594.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
-        body{
-            margin: 0px;
-            padding: 0px;
-            font-family: sans-serif;
-        }
-        .container{
-            max-width: 1280px;
-            margin: auto;
-        }
-        header{
-            width: 90%;
-            margin: auto;
-        }
-        header>nav{
-            width: 100%;
-            display: flex;
-            /* background-color: orange; */
-            padding: 10px;
-            align-items: center;
-            justify-content: space-between;
-        }
-        nav>div:nth-of-type(2){
-            display: flex;
-            justify-content: space-around;
-            width: 65%;
-            align-items: center;
-        }
+      body {
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+      }
+      .container {
+        max-width: 1280px;
+        margin: auto;
+      }
+      header {
+        width: 90%;
+        margin: auto;
+      }
+      header > nav {
+        width: 100%;
+        display: flex;
+        /* background-color: orange; */
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+      }
+      nav > div:nth-of-type(2) {
+        display: flex;
+        justify-content: space-around;
+        width: 65%;
+        align-items: center;
+      }
+      main {
+        
+        width: 90%;
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 10px 10px 0px 0px;
+        background-image: linear-gradient(rgb(197, 210, 247), white);
+      }
+
+      main > div {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 65px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <nav>
-                <div>
-                  <img src="https://coinswitch.co/_next/static/media/logo.01525825.svg" alt="">
-                </div>
-                <div>
-                    
-                     <span>Products <i class="fa-solid fa-caret-down"></i></span>
-               
-               
-                    <span>Coins</span>
-               
-                
-                    <span>Ventures</span>
-                
-                
-                    <span>Blog</span>
-               
-                
-                    <span>Company <i class="fa-solid fa-caret-down"></i></span>
-                
-                
-                    <button style="background-color: #B1E50E; padding: 12px 24px; border: none; border-radius: 6px;font-weight: 600; cursor: pointer;">Login to Pro</button>
-                
-                </div>
-               
-            </nav>
-        </header>
+      <header>
+        <nav>
+          <div>
+            <img
+              src="https://coinswitch.co/_next/static/media/logo.01525825.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <span>Products <i class="fa-solid fa-caret-down"></i></span>
+
+            <span>Coins</span>
+
+            <span>Ventures</span>
+
+            <span>Blog</span>
+
+            <span>Company <i class="fa-solid fa-caret-down"></i></span>
+
+            <button
+              style="
+                background-color: #b1e50e;
+                padding: 12px 24px;
+                border: none;
+                border-radius: 6px;
+                font-weight: 600;
+                cursor: pointer;
+              "
+            >
+              Login to Pro
+            </button>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div>
+          <div>
+            <img
+              src="https://coinswitch.co/_next/static/media/logo.01525825.svg"
+              alt=""
+            />
+          </div>
+          <div><h1 style="font-size: 80px">Your Innovation</h1></div>
+          <div>
+            <h1
+              style="
+                font-size: 80px;
+                margin-top: -23px;
+                color: rgb(107, 145, 252);
+              "
+            >
+              Our Fuel
+            </h1>
+          </div>
+          <div>
+            <h5 style="font-size: 30px; color: rgb(73, 75, 87); width: 90%">
+              CoinSwitch Ventures invests in the most promising Web3 and
+              blockchain projects in india. Does that sound like you?
+            </h5>
+          </div>
+          <div>
+            <button
+              style="
+                margin: 16px 0px 0px;
+                font-size: 18px;
+                font-family: 900;
+                color: #f4f6f6;
+                padding: 10px 50px;
+                background-color: #121319;
+                border-radius: 6px;
+              "
+            >
+              Apply Now
+            </button>
+          </div>
+        </div>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+            margin-top: 200px;
+            margin-left: -40px;
+          "
+        >
+          <div>
+            <img
+              src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/blockchain.webp"
+              alt=""
+            />
+          </div>
+          <div>
+            <h3
+              style="font-size: 28px; margin-top: 100px; color: rgb(73, 75, 87)"
+            >
+              We believe that Web3 and blockchain are the foundations of the new
+              digital, decentralized economy.
+            </h3>
+            <p style="font-size: 20px; color: #554b57; font-weight: 500">
+              To this end, we’re partnering with startups that are advancing the
+              future of Blockchain technology. We provide early stage founders
+              with the capital, network connections and most importantly, the
+              advice they need to transform the Web3 landscape in India.
+            </p>
+          </div>
+        </div>
+        <section>
+          <div>
+            <div><h1 style="font-size: 50px; color: #44454e;">Why it Matters?</h1></div>
+          </div>
+          <div style="display: flex;flex-direction: row;justify-content: space-evenly;  gap: 90px;  margin-top: 80px;">
+            <div>
+              <img
+                src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/partnership.svg"
+                alt=""
+              />
+              <h3 style="color: #616371;">Partnership with India’s largest wealth tech destination</h3>
+            </div>
+            <div>
+              <img
+                src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/network.svg"
+                alt=""
+              />
+              <h3 style="color: #616371;">
+                Access to a network of 70+ global venture capital partners
+              </h3>
+            </div>
+            <div>
+              <img
+                src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/capital.svg"
+                alt=""
+              />
+              <h3 style="color: #616371;">Capital infusion up to $250,000</h3>
+            </div>
+            <div>
+              <img
+                src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/mentorship.svg"
+                alt=""
+              />
+              <h3 style="color: #616371;">Mentorship from in-house experts</h3>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
-</body>
+  </body>
 </html>
